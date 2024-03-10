@@ -22,7 +22,7 @@ In this project, I focus on the abstractive summarization.
 
   1) **Processing step**:
      - Linguistic technology to structure the input text(Sentence segmentation, word tokenization, stop-word removal,...)
-  2) Semantic Understanding:
+  2) **Semantic Understanding**:
      - Use the neural network to recognize and represent the deep semantics of the input text.
      - This process occurs in the vector space and output the fusion vector that represent whole thing.
   3) **Summary Generating:**
