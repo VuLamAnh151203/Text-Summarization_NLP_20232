@@ -93,12 +93,14 @@ Bart model is the model which pre-trains a model combining Bidirectional and Aut
     The defeat against Al Hilal left Al Nassr with an only chance to get a title this season, which is the King Cup, a tournament similar to England's FA Cup. Al Nassr reached the semifinals and will meet Al Ittihad on April 30. Meanwhile, Al Hilal reached the final of the Saudi Super Cup and will play Al Ittihad on April 11."""
 </sub>
 
-- **The summary text:**
+- **The generated summary text:**
 
 <sub>
     
      Portuguese striker Cristiano Ronaldo was sent off for the 12th time in his career after his elbow hit Al Nassr's defender Ali Al-Bulaihi's neck in the 86th minute of the Saudi Super Cup on Monday night. Ronaldo raised his fist towards referee Mohammed Al-Hoaish and intended to punch him. The referee gave him a red card and sent him off.
 
  </sub>
+
+**Link to Hugging Face Hub:** https://huggingface.co/LA1512/fine-tuned-distilbart-xsum-12-3-news-summary
 
 
