@@ -1,6 +1,6 @@
-Using Deep learning to perform text summarization task
+# Using Deep learning to perform text summarization task
 
-I. Introduction to Text Summarization
+## I. Introduction to Text Summarization
 
 **1) Definition:** Summarization is the task of producing the shorter version of document while preserving its important information
 
@@ -30,7 +30,7 @@ In this project, I focus on the abstractive summarization.
   3) **Summary Generating:**
      - Maps the fusion vector to the vocabulary to generate summary works.
 
-II. BART model:
+## II. BART model:
 
 1. Definition:
 Bart model is the model which pre-trains a model combining Bidirectional and Auto-Regressive Transformers. It uses the standard sequence-to-sequence Transformer architecture from (Vaswani et al., 2017), except, following GPT, that we modify ReLU activation functions to GeLUs (Hendrycks & Gimpel, 2016) and initialise parameters from N(0,0.02). It pre-trained the task of reconstructing the denoising text go back to the original text.
@@ -46,7 +46,7 @@ Bart model is the model which pre-trains a model combining Bidirectional and Aut
 3. Why we choose Bart model for Text summarization:
    Since bart model has autoregressive decoder, it can be directly fine-tuned for text generation task such as text summarization. Moreover, with the task of the summarization, we cank think the input text as the corrupted outout text, so we need to reconstruct original output text, then it's very similar to the pre-trained task in bart.
 
-III. Fine-tune model:
+## III. Fine-tune model:
 
 1. Pre-trained model:
 
