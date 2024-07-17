@@ -51,6 +51,14 @@ pip install transformers
 ### 3. Run 
 Run the **Inference NLP.ipynb** file code and try the demo in the **Gradio** section in file.
 
+## References:
+
+1. Iz Beltagy, Matthew E. Peters, Arman Cohan(2020): Longformer: The Long-Document Transformer (https://arxiv.org/abs/2004.05150)
+2. Potsawee Manakul, Mark J. F. Gales(2021): Long-Span Summarization via Local Attention and Content Selection (https://arxiv.org/abs/2105.03801)
+
+
+
+
 
 
 
