@@ -40,8 +40,8 @@ First, clone this repository
 
 <!-- start:code block -->
 ### 1. Clone this repository
-git clone 
-cd papermark
+git clone https://github.com/VuLamAnh151203/Text-Summarization_NLP_20232.git
+cd Text-Summarization_NLP_20232
 
 ### 2. Install dependencies
 pip install gradio
